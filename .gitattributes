@@ -1,0 +1,2 @@
+# .gitattributes — в корне проекта
+assets/demo.gif export-ignore
