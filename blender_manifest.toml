@@ -1,0 +1,60 @@
+# Blender Extension Manifest
+# This file defines the metadata for the extension per the Blender Extensions Platform specification.
+
+schema_version       = "1.0.0"
+
+# Unique identifier for this extension (lowercase, no spaces)
+id                   = "mee_blender_addon"
+
+# Semantic version of the extension
+version              = "1.0.0"
+
+# Full human-readable name of the extension
+name                 = "The Material Editor Exterminatus"
+
+# One-line short description (no trailing punctuation)
+tagline              = "Quickly find and manage unused material nodes"
+
+# Contact information for the maintainer (name and/or email)
+maintainer           = "@cheeseOFcheese (https://github.com/cheeseOFcheese)"
+
+# Type of extension: "add-on" or "theme"
+type                 = "add-on"
+
+# Minimum supported Blender version (use at least 4.2.0)
+blender_version_min  = "4.4.0"
+
+# Maximum supported Blender version (optional)
+blender_version_max  = "5.0.0"
+
+# SPDX-compliant license identifiers (required)
+# See https://spdx.org/licenses/
+license              = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# ------------------- Optional Fields -------------------
+
+# Website or documentation URL for this extension
+# website             = "https://github.com/cheeseOFcheese/mee_blender_addon"
+
+# Categorization tags (choose from Blender’s supported tags)
+# tags                = ["3D View", "Node", "Material"]
+
+# Copyright statements (if required by license)
+# copyright           = ["2025 CheeseOFCheese"]
+
+# Supported platforms (omit for all)
+# platforms           = ["windows-x64", "macos-arm64", "linux-x64"]
+
+# Bundled Python wheels (optional)
+# wheels              = ["./wheels/some_module-1.2.3-py3-none-any.whl"]
+
+# Permissions this add-on requires (optional)
+# [permissions]
+# files               = "Access material node data"
+# network             = "Fetch remote material libraries"
+
+# Build configuration (optional)
+# [build]
+# paths_exclude_pattern = ["__pycache__/", "/.git/", "*.zip"]
