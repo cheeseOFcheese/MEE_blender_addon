@@ -1,3 +1,0 @@
-git add .gitattributes
-git commit -m "Exclude demo.gif from ZIP archives"
-git push
